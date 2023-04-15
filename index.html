@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carbon Footprint Calculator</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <header>
+        <!-- Header section -->
+        <header>
+            <div>
+              <h1>Carbon Footprint Calculator</h1>
+              <nav>
+                <ul>
+                  <li><a href="#" class="nav-link">Home</a></li>
+                  <li><a href="./pages/about.html" class="nav-link">About</a></li>
+                  <li><a href="./pages/contact.html" class="nav-link">Contact</a></li>
+                </ul>
+              </nav>
+              <!--
+                  <a href="#" class="cta">Calculate Your Carbon Footprint</a> 
+              -->
+            </div>
+          </header>
+          
+    </header>
+
+    <main>
+      
+            <!-- Hero section -->
+            <section class="hero">
+                <div class="container">
+                  <div class="hero-image">
+                    <img src="./images/image2.jpg" alt="Carbon Footprint Calculator">
+                  </div>
+                  <div class="hero-content">
+                    <h2>Calculate Your Carbon Footprint</h2>
+                    <p>Find out how much carbon you're producing and learn how to reduce your impact.</p>
+                    <!-- 
+                
+                        <a href="#" class="cta">Calculate Now</a>
+              -->
+                  </div>
+                </div>
+              </section>
+              
+     
+
+            <!-- Calculator section -->
+            <section class="calculator">
+                <div class="calculator-container">
+                    <h2>Carbon Footprint Calculator</h2>
+                    <form id="carbon-form">
+                      <div class="form-group">
+                        <label for="distance">How far do you travel by car each week?</label>
+                        <input type="number" id="distance" name="distance" placeholder="Enter distance in miles">
+                      </div>
+                      <div class="form-group">
+                        <label for="fuel-type">What type of fuel does your car use?</label>
+                        <select id="fuel-type" name="fuel-type">
+                          <option value="petrol">Petrol</option>
+                          <option value="diesel">Diesel</option>
+                          <option value="electric">Electric</option>
+                        </select>
+                      </div>
+                      <div class="form-group">
+                        <label for="electricity-usage">How much electricity do you use each month?</label>
+                        <input type="number" id="electricity-usage" name="electricity-usage" placeholder="Enter usage in kilowatt-hours">
+                      </div>
+                      <div class="form-group">
+                        <label for="gas-usage">How much natural gas do you use each month?</label>
+                        <input type="number" id="gas-usage" name="gas-usage" placeholder="Enter usage in cubic feet">
+                      </div>
+                      <button type="submit" class="cta">Calculate</button>
+                    </form>
+                  </div>
+                  <div class="calculator-result">
+                    <h3>Your carbon footprint is:</h3>
+                    <div id="carbon-result">0</div>
+                    <p>tons of CO2 per year</p>
+                  </div>
+                </div>
+              </section>
+              
+              
+
+              <!-- Summary section -->
+        <section class="summary">
+            <div class="container">
+              <h2>Summary</h2>
+              <p>Your carbon footprint is a measure of the amount of carbon dioxide and other greenhouse gases that are released into the atmosphere as a result of your activities. By using this calculator, you can get an estimate of your carbon footprint based on your transportation and energy usage.</p>
+              <p>Once you know your carbon footprint, you can take steps to reduce it by making changes to your lifestyle and habits. Some simple steps you can take include walking or biking instead of driving, using public transportation, and reducing your energy usage at home.</p>
+              <p>By taking action to reduce your carbon footprint, you can help to mitigate the effects of climate change and contribute to a more sustainable future for our planet.</p>
+            </div>
+          </section>
+          
+    </main>
+
+    <!-- Footer section -->
+    <footer>
+        <div class="footer-container">
+          <p>Carbon Footprint Calculator &copy; 2023 Arexon Mortel. All rights reserved.</p>
+          <p>This web app was developed as a personal project to raise awareness about the impact of our daily activities on the environment. It is not intended to provide a scientific or comprehensive analysis of carbon emissions, but rather to serve as a starting point for individuals who want to take action to reduce their carbon footprint.</p>
+        </div>
+      </footer>
+      
+      <script src="./index.js"></script>
+</body>
+</html>
